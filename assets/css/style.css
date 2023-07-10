@@ -45,7 +45,8 @@ body {
 }
 
 .hero .secondary-text,
-.header .link-text {
+.header .link-text,
+footer {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -90,4 +91,9 @@ body {
   border-radius: 8px;
   margin-top: 12px;
   padding: 8px 32px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2.5rem 0;
 }
