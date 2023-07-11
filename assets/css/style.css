@@ -112,6 +112,21 @@ footer {
   justify-content: space-between;
 }
 
+@media all and (max-width: 767px) {
+  .cta-wrapper {
+    padding: 3rem 12px;
+  }
+}
+
+.cta-text {
+  margin-right: 6px;
+  flex: 3;
+}
+
+.cta-button {
+  margin-left: 6px;
+}
+
 .cta .btn-cta {
   border: 2px solid white;
   font-size: 18px;
