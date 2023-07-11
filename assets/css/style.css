@@ -23,7 +23,8 @@ body {
 }
 
 .header-text,
-.logo-text {
+.logo-text,
+.cta-text h3 {
   font-size: 24px;
   color: #f9faf8;
 }
@@ -48,6 +49,7 @@ body {
 
 .hero .secondary-text,
 .header .link-text,
+.cta-text .secondary-text,
 footer {
   font-size: 18px;
   color: #e5e7eb;
@@ -96,6 +98,23 @@ footer {
   border-radius: 8px;
   margin-top: 12px;
   padding: 8px 32px;
+}
+
+.cta .container {
+  background: #3882f6;
+  border-radius: 8px;
+  margin: 6rem auto 5rem;
+}
+
+.cta-wrapper {
+  padding: 3rem 7.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .btn-cta {
+  border: 2px solid white;
+  font-size: 18px;
 }
 
 .footer {
