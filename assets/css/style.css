@@ -32,7 +32,7 @@ body {
 
 .logo-text {
   margin-left: 16px;
-  font-weight: bolder;
+  font-weight: 900;
   display: flex;
   flex: 1;
 }
@@ -74,7 +74,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 7rem 0;
+  padding: 5rem 0 7rem;
 }
 
 .hero-center .left,
@@ -86,14 +86,21 @@ footer {
   width: calc(768px / 2);
 }
 
+.hero-center .btn-cta {
+  color: white;
+  padding: 8px 32px;
+}
+
 .hero-center .right img {
   width: 100%;
   height: 100%;
 }
 
 .random h2 {
+  color: #1f2937;
   text-align: center;
   font-size: 2.2rem;
+  font-weight: 900;
   margin: 3rem 0;
 }
 
@@ -113,12 +120,12 @@ footer {
 }
 
 .card-image {
-  height: 172px;
+  height: 168px;
 }
 
 .random-wrapper img {
   width: 100%;
-  height: 172px;
+  height: 168px;
   border: 4px solid #3882f6;
   border-radius: 15px;
   object-fit: cover;
@@ -133,6 +140,29 @@ footer {
   text-align: center;
 }
 
+.quote {
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote .container {
+  max-width: 850px;
+  padding: 130px 10px 102px 50px;
+}
+
+.quote-source {
+  color: #1f2937;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  margin-right: 40px;
+  display: flex;
+  justify-content: end;
+}
+
 .btn-cta {
   background: #3882f6;
   color: white;
@@ -140,25 +170,21 @@ footer {
   border: none;
   border-radius: 8px;
   margin-top: 12px;
-  padding: 8px 32px;
+  padding: 6px 32px;
 }
 
 .cta .container {
   background: #3882f6;
   border-radius: 8px;
-  margin: 6rem auto 5rem;
+  /* margin: 6rem auto 5rem; */
+  margin: 100px auto 5rem;
 }
 
 .cta-wrapper {
-  padding: 3rem 7.5rem;
+  /* padding: 3rem 7.5rem; */
+  padding: 50px 7.5rem;
   display: flex;
   justify-content: space-between;
-}
-
-@media all and (max-width: 767px) {
-  .cta-wrapper {
-    padding: 3rem 12px;
-  }
 }
 
 .cta-text {
@@ -178,4 +204,13 @@ footer {
 .footer {
   text-align: center;
   padding: 2.5rem 0;
+}
+
+@media all and (max-width: 767px) {
+  .quote .container {
+    padding-left: 10px;
+  }
+  .cta-wrapper {
+    padding: 3rem 12px;
+  }
 }
