@@ -13,4 +13,4 @@ Here's the [link](https://tkdblake93.github.io/top-landing-page/) to the page.
 - Ali Madad Sakhirani: https://www.pexels.com/photo/man-with-black-white-and-green-dylan-cary-printed-crew-neck-shirt-997472/
   ![Ali Madad Sakhirani: man with black white and green dylan cary printed crew neck shirt](https://github.com/tkdblake93/top-landing-page/blob/master/assets/images/pexels-ali-madad-sakhirani-997472.jpg)
 - Rodolfo Quirós: https://www.pexels.com/photo/woman-wearing-round-eyeglasses-1727273/
-  [Rodolfo Quirós: woman wearing round eyeglasses](https://github.com/tkdblake93/top-landing-page/blob/master/assets/images/pexels-rodolfo-quir%C3%B3s-1727273.jpg)
+  [Rodolfo Quirós: woman wearing round eyeglasses](https://github.com/tkdblake93/top-landing-page/blob/master/assets/images/pexels-rodolfo-quirós-1727273.jpg)
