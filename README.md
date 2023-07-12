@@ -1,5 +1,7 @@
 # top-landing-page
 
+This is a project for The Odin Project (TOP). The goal was to take a design and recreate it using HTML and CSS. I went the extra mile and made it responsive.
+
 Here's the [link](https://tkdblake93.github.io/top-landing-page/) to the page.
 
 **All images were sourced on Pexels and are Free to use (CC0)**
