@@ -210,6 +210,9 @@ footer {
   .quote .container {
     padding-left: 10px;
   }
+  .quote-source {
+    margin-right: 10px;
+  }
   .cta-wrapper {
     padding: 3rem 12px;
   }
